@@ -1,3 +1,5 @@
+[![Python CI](https://github.com/elliottkennedy52-ux/ssh-log-auditor/actions/workflows/python-ci.yml/badge.svg)](https://github.com/elliottkennedy52-ux/ssh-log-auditor/actions/workflows/python-ci.yml)
+
 # Linux SSH Authentication & Brute-Force Log Auditor
 
 A Python CLI security monitoring tool that parses Linux authentication logs (`/var/log/auth.log`, `/var/log/secure`, or `systemd` `journalctl`) to detect SSH brute-force attempts, credential stuffing patterns, and potential post-brute-force compromises.
